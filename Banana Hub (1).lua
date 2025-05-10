@@ -7408,7 +7408,7 @@ task.spawn(function()
                             game.StarterGui:SetCore("SendNotification", {
                                 Title = "Hiru Hub",
                                 Text = "Use! - Yama or Tushita",
-                                con = "rbxassetid://77643538882937",
+                                con = "rbxassetid://75271043408888",
                                 Duration = 10,
                             })
                             hasNotified = true
@@ -8033,7 +8033,7 @@ Input = PVP:AddInput("Input", {
 game.StarterGui:SetCore("SendNotification", {
     Title = "Yes Or No";
     Text = "U want reset Config?";
-    Icon = "rbxassetid://77643538882937";
+    Icon = "rbxassetid://75271043408888";
     Duration = 1e5;
 	Button1 = "Yes";
 	Button2 = "No";
@@ -8068,7 +8068,7 @@ ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 1
 ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=77643538882937"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=75271043408888"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = Frame
