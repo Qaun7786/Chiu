@@ -1325,8 +1325,8 @@ end
 print("--[[Loaded UI]]--")
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
-    Title = "Banana Cat Hub-Blox Fruit [ Free ] By tuananhiosdzzzz",
-    SubTitle = "",
+    Title = "QuantumX Hub [Freemium]",
+    SubTitle = "by Qandzzzzzzz",
     TabWidth = 155,
     Size = UDim2.fromOffset(500, 350),
     Acrylic = false, 
@@ -7408,7 +7408,7 @@ task.spawn(function()
                             game.StarterGui:SetCore("SendNotification", {
                                 Title = "Hiru Hub",
                                 Text = "Use! - Yama or Tushita",
-                                con = "rbxassetid://11995210995",
+                                con = "rbxassetid://77643538882937",
                                 Duration = 10,
                             })
                             hasNotified = true
@@ -8033,7 +8033,7 @@ Input = PVP:AddInput("Input", {
 game.StarterGui:SetCore("SendNotification", {
     Title = "Yes Or No";
     Text = "U want reset Config?";
-    Icon = "rbxassetid://5009915795";
+    Icon = "rbxassetid://77643538882937";
     Duration = 1e5;
 	Button1 = "Yes";
 	Button2 = "No";
@@ -8068,7 +8068,7 @@ ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 1
 ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Image = "http://www.roblox.com/asset/?id= 5009915795"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=77643538882937"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = Frame
