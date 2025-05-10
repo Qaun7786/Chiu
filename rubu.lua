@@ -127,7 +127,7 @@ v4.Notification = function(v131, v132, v133, v134)
 	v149.AnchorPoint = Vector2.new(0.5, 0.5);
 	v149.Position = UDim2.new(0.9, 0, 0.5, 0);
 	v149.Size = UDim2.new(0, 90, 0, 90);
-	v149.Image = "rbxassetid://";
+	v149.Image = "rbxassetid://77643538882937";
 	local v157 = Instance.new("TextLabel");
 	v157.Parent = v135;
 	v157.Name = "TextLabel_Tap";
@@ -240,7 +240,7 @@ v3.Window = function(v209, v210, v211, v212)
 	v243.BackgroundTransparency = 1;
 	v243.Position = UDim2.new( -0.01, 0, -0.319, 0);
 	v243.Size = UDim2.new(0, 55, 0, 45);
-	v243.Image = "rbxassetid://"   .. tostring(v211) ;
+	v243.Image = "rbxassetid://77643538882937"   .. tostring(v211) ;
 	local v251 = Instance.new("TextLabel");
 	v251.Name = "Name";
 	v251.Parent = v235;
@@ -376,7 +376,7 @@ v3.Window = function(v209, v210, v211, v212)
 		v722.BackgroundTransparency = 1;
 		v722.Position = UDim2.new(0, 0, 0, 0);
 		v722.Size = UDim2.new(0, 20, 0, 20);
-		v722.Image = v720 or "rbxassetid://105486552530887" ;
+		v722.Image = v720 or "rbxassetid://77643538882937" ;
 		v722.ImageColor3 = _G.Color;
 		local v752 = Instance.new("ScrollingFrame");
 		v752.Name = v719   .. "_Page" ;
@@ -655,7 +655,7 @@ v3.Window = function(v209, v210, v211, v212)
 			v1145.BorderSizePixel = 0;
 			v1145.Position = UDim2.new( -0.018, 0, -0.252, 0);
 			v1145.Size = UDim2.new(0, 45, 0, 45);
-			v1145.Image = "rbxassetid://";
+			v1145.Image = "rbxassetid://77643538882937";
 			v1145.ImageColor3 = Color3.fromRGB(128, 102, 255);
 			v1146.Name = "Space";
 			v1146.Parent = v1141;
@@ -774,7 +774,7 @@ v3.Window = function(v209, v210, v211, v212)
 			v1232.Position = UDim2.new(0, 280, 0, 6);
 			v1232.Rotation = 180;
 			v1232.Size = UDim2.new(0, 20, 0, 20);
-			v1232.Image = "rbxassetid://105486552530887";
+			v1232.Image = "rbxassetid://77643538882937";
 			v1231.Name = "DropButton";
 			v1231.Parent = v1225;
 			v1231.BackgroundColor3 = Color3.fromRGB(128, 102, 255);
@@ -931,7 +931,7 @@ v3.Window = function(v209, v210, v211, v212)
 			v1312.BorderSizePixel = 0;
 			v1312.Position = UDim2.new(0, 5, 0, 5);
 			v1312.Size = UDim2.new(0, 18, 0, 18);
-			v1312.Image = "rbxassetid://";
+			v1312.Image = "rbxassetid://77643538882937";
 			v1312.ImageColor3 = Color3.fromRGB(128, 102, 255);
 			v1313.Name = "Space";
 			v1313.Parent = v1309;
@@ -1568,7 +1568,7 @@ v29.BorderSizePixel = 0;
 v29.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0);
 v29.Size = UDim2.new(0, 53.5, 0, 53.5);
 v29.BackgroundTransparency = 1;
-v29.Image = "rbxassetid://105486552530887";
+v29.Image = "rbxassetid://77643538882937";
 v29.Draggable = true;
 v29.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game);
@@ -3512,7 +3512,7 @@ if _G.FastAttack then
 		return v1766;
 	end)();
 end
-local v52 = v3:Window("KhoitongDZ Hub", "");
+local v52 = v3:Window("QuantumX Hub", "");
 local v53 = v52:T("Tab Status", "rbxassetid://10734984606");
 local v54 = v52:T("Tab General", "rbxassetid://10723407389");
 local v55 = v52:T("Setting Other", "rbxassetid://10734950309");
@@ -3529,7 +3529,7 @@ local v65 = v52:T("Miscellaneous", "rbxassetid://10709782582");
 v53:Seperator("Join Discord");
 v53:Label("Everyone Goes Into Socialize");
 v53:Button("Copy Discord Link", function()
-	setclipboard("https://discord.gg/w26VGWmMPb");
+	setclipboard("https://discord.gg/TjV8CNwh");
 end);
 v53:Seperator("Time");
 Time = v53:Label("Executer Time");
@@ -10940,6 +10940,6 @@ local v123 = game:GetService("Players");
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "KhoitongDZ Hub",
 	Text = "Loading Done!",
-	Icon = "rbxthumb://type=Asset&id=105486552530887&w=150&h=150",
+	Icon = "rbxthumb://type=Asset&id=77643538882937&w=150&h=150",
 	Duration = 10
 });
